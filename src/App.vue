@@ -1,8 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <navbar/>
     </div>
     <router-view/>
   </div>
@@ -16,9 +15,10 @@
   text-align: center;
   color: #2c3e50;
 }
-
+.navbar {
+  background-color: rgba(0,0,0,0);
+}
 #nav {
-  padding: 30px;
 
   a {
     font-weight: bold;
@@ -29,4 +29,14 @@
     }
   }
 }
+
 </style>
+<script>
+import navbar from "@/components/navbar"
+export default {
+  components: {
+    navbar
+  }
+
+}
+</script>
