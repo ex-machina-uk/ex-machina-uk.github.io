@@ -7,8 +7,6 @@
           <!-- Slide -->
           <div
             class="Wallop-item has-background-image"
-            data-background="assets/img/agency/agency.jpg"
-            data-demo-background="assets/img/agency/agency.jpg"
             style="background-image: url(&quot;assets/img/unsplash/office/office-5.jpg&quot;);"
           >
             <div class="Wallop-overlay"></div>
@@ -38,8 +36,6 @@
           <!-- Slide -->
           <div
             class="Wallop-item has-background-image Wallop-item--hidePrevious"
-            data-background="assets/img/agency/agency2.jpg"
-            data-demo-background="assets/img/agency/agency2.jpg"
             style="background-image: url(&quot;assets/img/unsplash/devs/dev-9.jpg&quot;);"
           >
             >
@@ -70,8 +66,6 @@
           <!-- Slide -->
           <div
             class="Wallop-item has-background-image Wallop-item--current Wallop-item--showNext"
-            data-background="assets/img/agency/agency3.jpg"
-            data-demo-background="assets/img/agency/agency3.jpg"
             style="background-image: url(&quot;assets/img/unsplash/office/office-2.jpg&quot;);"
           >
             <div class="Wallop-overlay"></div>
@@ -128,33 +122,33 @@
               <div class="tabs partner-tabs is-centered">
                 <ul>
                   <li>
-                    <a>
-                      <img src="assets/img/unsplash/work/mb.webp" alt class="partner-logo" />
+                    <a v-lazy-container="{ selector: 'img' }">
+                      <img data-src="assets/img/unsplash/work/mb.webp" alt class="partner-logo" />
                     </a>
                   </li>
                   <li>
-                    <a>
-                      <img src="assets/img/unsplash/work/cambridge.png" alt class="partner-logo" />
+                    <a v-lazy-container="{ selector: 'img' }">
+                      <img data-src="assets/img/unsplash/work/cambridge.png" alt class="partner-logo" />
                     </a>
                   </li>
                   <li>
-                    <a>
-                      <img src="assets/img/unsplash/work/az-logo.png.png" alt class="partner-logo" />
+                    <a v-lazy-container="{ selector: 'img' }">>
+                      <img data-src="assets/img/unsplash/work/az-logo.png.png" alt class="partner-logo" />
                     </a>
                   </li>
                   <li>
-                    <a>
+                    <a v-lazy-container="{ selector: 'img' }">
                       <img
-                        src="assets/img/unsplash/work/MedImmune_logo.gif"
+                        data-src="assets/img/unsplash/work/MedImmune_logo.gif"
                         alt
                         class="partner-logo"
                       />
                     </a>
                   </li>
                   <li>
-                    <a>
+                    <a v-lazy-container="{ selector: 'img' }">
                       <img
-                        src="assets/img/unsplash/work/cs.png"
+                        data-src="assets/img/unsplash/work/cs.png"
                         height="200px"
                         alt
                         class="partner-logo"
@@ -162,9 +156,10 @@
                     </a>
                   </li>
                   <li>
-                    <a>
+                    <a v-lazy-container="{ selector: 'img' }">
+
                       <img
-                        src="assets/img/unsplash/work/oxford.png"
+                        data-src="assets/img/unsplash/work/oxford.png"
                         height="200px"
                         alt
                         class="partner-logo"
@@ -263,9 +258,9 @@
             <div class="columns is-gapless">
               <!-- Portfolio item -->
               <div class="column is-4">
-                <div class="portfolio-item">
+                <div class="portfolio-item" v-lazy-container="{ selector: 'img' }">
                   <img
-                    src="assets/img/unsplash/other/code-3.jpg"
+                    data-src="assets/img/unsplash/other/code-3.jpg"
                     alt
                     data-demo-src="assets/img/unsplash/dev-1.jpg"
                   />
@@ -278,9 +273,10 @@
                   </div>
                 </div>
                 <!-- Portfolio item -->
-                <div class="portfolio-item">
+                <div class="portfolio-item" v-lazy-container="{ selector: 'img' }">
+
                   <img
-                    src="assets/img/unsplash/devs/dev-2.jpg"
+                    data-src="assets/img/unsplash/devs/dev-2.jpg"
                     alt
                     data-demo-src="assets/img/agency/ceramic.jpg"
                   />
@@ -299,9 +295,10 @@
               </div>
               <!-- Portfolio item -->
               <div class="column is-4">
-                <div class="portfolio-item">
+                <div class="portfolio-item" v-lazy-container="{ selector: 'img' }">
+
                   <img
-                    src="assets/img/unsplash/devs/dev-4.jpg"
+                    data-src="assets/img/unsplash/devs/dev-4.jpg"
                     alt
                     data-demo-src="assets/img/agency/tin.jpg"
                   />
@@ -318,9 +315,10 @@
                   </div>
                 </div>
                 <!-- Portfolio item -->
-                <div class="portfolio-item">
+                <div class="portfolio-item"  v-lazy-container="{ selector: 'img' }">
+
                   <img
-                    src="assets/img/unsplash/smiles/smile-1.jpg"
+                    data-src="assets/img/unsplash/smiles/smile-1.jpg"
                     alt
                     data-demo-src="assets/img/agency/poster.jpg"
                   />
@@ -337,9 +335,10 @@
                   </div>
                 </div>
                 <!-- Portfolio item -->
-                <div class="portfolio-item">
+                <div class="portfolio-item" v-lazy-container="{ selector: 'img' }">
+
                   <img
-                    src="assets/img/unsplash/other/conference.jpg"
+                    data-src="assets/img/unsplash/other/conference.jpg"
                     alt
                     data-demo-src="assets/img/agency/office-brand.jpg"
                   />
@@ -358,9 +357,10 @@
               </div>
               <div class="column is-4">
                 <!-- Portfolio item -->
-                <div class="portfolio-item">
+                <div class="portfolio-item" v-lazy-container="{ selector: 'img' }">
+
                   <img
-                    src="assets/img/unsplash/other/python.jpg"
+                    data-src="assets/img/unsplash/other/python.jpg"
                     alt
                     data-demo-src="assets/img/agency/frame.jpg"
                   />
@@ -377,9 +377,10 @@
                   </div>
                 </div>
                 <!-- Portfolio item -->
-                <div class="portfolio-item">
+                <div class="portfolio-item"  v-lazy-container="{ selector: 'img' }">
+
                   <img
-                    src="assets/img/unsplash/devs/dev-3.jpg"
+                    data-src="assets/img/unsplash/devs/dev-3.jpg"
                     alt
                     data-demo-src="assets/img/agency/iphonex.jpg"
                   />
@@ -424,29 +425,31 @@
               <div class="columns is-vcentered has-text-centered is-multiline">
                 <!-- Icon box -->
                 <div class="column is-6">
-                  <div class="flex-card icon-card hover-inset">
-                    <img src="assets/img/icons/invoice.svg" alt />
+                  <div class="flex-card icon-card hover-inset" v-lazy-container="{ selector: 'img' }">
+
+                    <img data-src="assets/img/icons/invoice.svg" alt />
                     <div class="icon-card-text is-clean">Cost</div>
                   </div>
                 </div>
                 <!-- Icon box -->
                 <div class="column is-6">
-                  <div class="flex-card icon-card hover-inset">
-                    <img src="assets/img/icons/tablet-dots.svg" alt />
+                  <div class="flex-card icon-card hover-inset" v-lazy-container="{ selector: 'img' }">
+
+                    <img data-src="assets/img/icons/tablet-dots.svg" alt />
                     <div class="icon-card-text is-clean">API Interfaces</div>
                   </div>
                 </div>
                 <!-- Icon box -->
                 <div class="column is-6">
-                  <div class="flex-card icon-card hover-inset">
-                    <img src="assets/img/icons/records.svg" alt />
+                  <div class="flex-card icon-card hover-inset"  v-lazy-container="{ selector: 'img' }">
+                    <img data-src="assets/img/icons/records.svg" alt />
                     <div class="icon-card-text is-clean">Communication</div>
                   </div>
                 </div>
                 <!-- Icon box -->
                 <div class="column is-6">
-                  <div class="flex-card icon-card hover-inset">
-                    <img src="assets/img/icons/sync.svg" alt />
+                  <div class="flex-card icon-card hover-inset"  v-lazy-container="{ selector: 'img' }">
+                    <img data-src="assets/img/icons/sync.svg" alt />
                     <div class="icon-card-text is-clean">Deployments</div>
                   </div>
                 </div>
@@ -492,9 +495,9 @@
             <!-- Team member -->
             <article class="modern-team-item circle-mask zoom-effect">
               <div class="item-wrapper">
-                <div class="item-img">
+                <div class="item-img"  v-lazy-container="{ selector: 'img' }">
                   <img
-                    src="assets/img/unsplash/directors/me2.png"
+                    data-src="assets/img/unsplash/directors/me2.png"
                     class="member-avatar"
                     alt
                     data-demo-src="assets/img/agency/team/one.jpg"
@@ -521,9 +524,9 @@
             <!-- Team member -->
             <article class="modern-team-item circle-mask rotate-zoom-effect">
               <div class="item-wrapper">
-                <div class="item-img">
+                <div class="item-img"  v-lazy-container="{ selector: 'img' }">
                   <img
-                    src="assets/img/unsplash/directors/me.jpeg"
+                    data-src="assets/img/unsplash/directors/me.jpeg"
                     class="member-avatar"
                     alt
                     data-demo-src="assets/img/agency/team/two.jpg"
@@ -550,9 +553,9 @@
             <!-- Team member -->
             <article class="modern-team-item circle-mask zoom-effect">
               <div class="item-wrapper">
-                <div class="item-img">
-                  <img
-                    src="assets/img/unsplash/directors/kais.jpg"
+                <div class="item-img"  v-lazy-container="{ selector: 'img' }">
+                  <img 
+                    data-src="assets/img/unsplash/directors/kais.jpg"
                     class="member-avatar"
                     alt
                     data-demo-src="assets/img/agency/team/one.jpg"
@@ -648,16 +651,16 @@
             <div class="column is-4">
               <div class="card">
                 <div class="card-image">
-                  <figure class="image is-4by3">
+                  <figure class="image is-4by3"  v-lazy-container="{ selector: 'img' }">
                     <img
-                      src="assets/img/unsplash/other/machine-learning.jpg"
+                      data-src="assets/img/unsplash/other/machine-learning.jpg"
                       alt
                       data-demo-src="assets/img/agency/posts/data-insight.jpeg"
                     />
                   </figure>
-                  <figure class="image author is-48x48">
+                  <figure class="image author is-48x48"  v-lazy-container="{ selector: 'img' }">
                     <img
-                      src="assets/img/agency/avatars/elie.jpg"
+                      data-src="assets/img/agency/avatars/elie.jpg"
                       class="img-circle"
                       alt
                       data-demo-src="assets/img/agency/avatars/helen.jpg"
@@ -690,16 +693,16 @@
             <div class="column is-4">
               <div class="card">
                 <div class="card-image">
-                  <figure class="image is-4by3">
+                  <figure class="image is-4by3"  v-lazy-container="{ selector: 'img' }">
                     <img
-                      src="assets/img/unsplash/other/bulbs.jpg"
+                      data-src="assets/img/unsplash/other/bulbs.jpg"
                       alt
                       data-demo-src="assets/img/agency/posts/blog.jpeg"
                     />
                   </figure>
-                  <figure class="image author is-48x48">
+                  <figure class="image author is-48x48"  v-lazy-container="{ selector: 'img' }">
                     <img
-                      src="assets/img/agency/avatars/helen.jpg"
+                      data-src="assets/img/agency/avatars/helen.jpg"
                       class="img-circle"
                       alt
                       data-demo-src="assets/img/agency/avatars/lakisha.jpg"
@@ -731,16 +734,16 @@
             <div class="column is-4">
               <div class="card">
                 <div class="card-image">
-                  <figure class="image is-4by3">
+                  <figure class="image is-4by3"  v-lazy-container="{ selector: 'img' }">
                     <img
-                      src="assets/img/unsplash/other/codes.jpg"
+                      data-src="assets/img/unsplash/other/codes.jpg"
                       alt
                       data-demo-src="assets/img/agency/posts/laptop-living.jpeg"
                     />
                   </figure>
-                  <figure class="image author is-48x48">
+                  <figure class="image author is-48x48"  v-lazy-container="{ selector: 'img' }">
                     <img
-                      src="assets/img/agency/avatars/lakisha.jpg"
+                      data-src="assets/img/agency/avatars/lakisha.jpg"
                       class="img-circle"
                       alt
                       data-demo-src="assets/img/agency/avatars/elie.jpg"
