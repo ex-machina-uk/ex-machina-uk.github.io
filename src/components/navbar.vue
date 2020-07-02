@@ -3,7 +3,7 @@
             <div class="container">
                 <!-- Brand -->
                 <div class="navbar-brand">
-                    <a class="navbar-item" href='/'>
+                    <a class="navbar-item" @click="push('/')">
                         <img class="light-logo" src="assets/img/logos/bulkit-white.svg" alt="">
                         <img class="dark-logo" src="assets/img/logos/bulkit-green.svg" alt="">
                         <span style="padding-left:5px;"> Ex Machina </span>
@@ -14,7 +14,7 @@
                     <div class="custom-burger" data-target="" >
                         <a id="" class="responsive-btn" href="javascript:void(0);" ref="toggler">
                             <span class="menu-toggle">
-                                    <span class="icon-box-toggle">
+                                    <span class="icon-box-toggle" ref='togglebox'>
                                         <span class="rotate">
                                             <i class="icon-line-top"></i>
                                             <i class="icon-line-center"></i>
@@ -71,3 +71,17 @@
             /* color: #2c3e50; */
         }
         </style>
+        <script>
+        export default {
+            methods: {
+                push(route) {
+                    if (this.$refs['togglebox'].classList.contains('active')) {
+                        this.$refs.toggler.click()
+                    } else {
+
+                    }
+                    this.$router.push(route)
+                }
+            }
+        }
+        </script>
