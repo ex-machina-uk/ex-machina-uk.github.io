@@ -3,7 +3,7 @@
             <div class="container">
                 <!-- Brand -->
                 <div class="navbar-brand">
-                    <a class="navbar-item" @click='$refs.toggler.click(); $router.push("/")'>
+                    <a class="navbar-item" href='/'>
                         <img class="light-logo" src="assets/img/logos/bulkit-white.svg" alt="">
                         <img class="dark-logo" src="assets/img/logos/bulkit-green.svg" alt="">
                         <span style="padding-left:5px;"> Ex Machina </span>
