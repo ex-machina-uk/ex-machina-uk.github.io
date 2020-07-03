@@ -7,7 +7,7 @@
           <div class="title-divider"></div>
           <div
             class="subheading"
-          >We love working with our clients, and getting into the DNA of their projects!</div>
+          >We love working with our clients and getting into the DNA of their projects!</div>
         </div>
 
         <div class="content-wrapper">
@@ -33,7 +33,7 @@
                       </h2>
                       <div class="title-divider"></div>
                       <div class="testimonial-content">
-                        <p>As part of a 12 month contract, we built a pipeline for antibody drug discovery, using the latest NLP and Machine Learning techniques.</p>
+                        <p>As part of a 12 month contract, we developed parts of a pipeline for antibody drug discovery using the latest NLP and machine learning techniques.</p>
                         <p>The project would help scientists find and identify antibody candidates faster and help with the fight against diseases like Covid-19.</p>
                         <p>Astra Zeneca is a multi-billion dollar drug discovery company with over 50,000 employees globally.</p>
 
@@ -74,8 +74,8 @@
                       </h2>
                       <div class="title-divider"></div>
                       <div class="testimonial-content">
-                        <p>At Movebubble, a property app that ran a successful campaign on the London Undergroud, we worked on the integrations to populate their investor dashboard.</p>
-                        <p>This involved building integrations with google analytics, facebook analytics, etc. , monitoring costs, developing dashboards and deploying to their server. </p>
+                        <p>At Movebubble, a property app that ran a successful campaign on the London Undergroud, we built the integrations to populate their investor dashboard.</p>
+                        <p>We built integrations with google analytics, facebook analytics, etc., helped monitoring costs, developed visual dashboards and deployed their services to a public facing server. </p>
                       </div>
                       <div class="customer-info">
                         <div class="customer-avatar">
@@ -112,8 +112,8 @@
                       </h2>
                       <div class="title-divider"></div>
                       <div class="testimonial-content">
-                        <p>We built a Vuejs WebApp with a python backend for SIMTrip- a global telecom with 4 million customers, looking to expand into fintech. </p>
-                        <p>We built a remittance platform for the company. </p>
+                        <p>Ex-Machina built a remittance platform for SIMTrip - a global telecom with 4 million customers, who were looking to expand into fintech. </p>
+                        <p>The platform was a Vuejs Web application with a python backend.</p>
                       </div>
                       <div class="customer-info">
                         <div class="customer-avatar">
@@ -154,8 +154,8 @@
                       </h2>
                       <div class="title-divider"></div>
                       <div class="testimonial-content">
-                        <p>We worked on a proof of concept optimisation for Z Investment's portfolio of shares. </p>
-                        <p>Linear programming and mathematical modeling embodied in performant code</p>
+                        <p>We worked on a proof of concept optimisation program for Z Investment's portfolio of shares. </p>
+                        <p>Linear programming and mathematical modeling were embodied in performant code.</p>
                       </div>
                       <div class="customer-info">
                         <div class="customer-avatar">
@@ -191,8 +191,10 @@
                       </h2>
                       <div class="title-divider"></div>
                       <div class="testimonial-content">
-                          <p>As part of a consultancy project, our founder was flown to Taipei to take part in the Ethereum conference on sharding.</p>
-                        <p>The conference promised great insight into the future of blockchain technologies and the scalability of the Ethereum platform</p>
+                          <p>As part of a consultancy project, our founder Max Chamberlin, was flown to Taipei to take part in the Ethereum conference on sharding.</p>
+                        <p>The conference promised great insights into the future of blockchain technologies and the scalability of the Ethereum platform. Max was lined
+                          up as a keynote speaker for one of the talks. 
+                        </p>
                       </div>
                       <div class="customer-info">
                         <div class="customer-avatar">
@@ -231,7 +233,7 @@
                       <div class="title-divider"></div>
                       <div class="testimonial-content">
                         <p>At Credit Suisse, we helped with the deployment of an insider threat monitoring platform.</p>
-                        <p>The project involved deploying, scaling and monitoring an ElasticSearch cluster, and a dockerised container of the application. </p>
+                        <p>The project involved deploying, scaling and monitoring an ElasticSearch cluster and dockerised containers of the application. </p>
                       </div>
                       <div class="customer-info">
                         <div class="customer-avatar">

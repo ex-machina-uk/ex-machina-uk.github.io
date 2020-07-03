@@ -8,11 +8,11 @@
           </div>
           <div>
             <h2 class="clean-section-title">Our Portfolio</h2>
-            <h2 class="subtitle is-3"> Pharma, Banking and Insurance</h2>
+            <h2 class="subtitle is-3"> Pharma, Fintech and Insurance</h2>
              <h2
                 class="subtitle is-4"
-              >Over th years we have worked with a range of clients, from banking and fin-tech to Pharmaceuticals. 
-              We adapt to each of clients technology needs, through a broad skillset and a can-do attitude. </h2>
+              >Over the years we have worked with a range of clients, from fintech apps to large pharmaceuticals companies. 
+              We adapt to each client's technology needs, through a broad skillset and a can-do attitude. </h2>
           </div>
         </div>
         </div>

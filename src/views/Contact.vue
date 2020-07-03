@@ -18,7 +18,7 @@
                         CONTACT US
                     </h1>
                     <h2 class="subtitle is-4 light-text pt-20">
-                        Wether you want to start a project with us or just ask us a question, we are here for you.
+                        Whether you want to start a project with us or just ask us a question, we are here for you.
                     </h2>
                     <br>
                 </div>

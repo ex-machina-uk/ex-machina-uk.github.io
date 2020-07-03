@@ -21,7 +21,7 @@
                   <h1 style="vertical-align:middle; display:inline;">Ex Machina</h1>
                 </div>
                 <div>
-                  <h2>We are tech Project Managers</h2>
+                  <h2>We are Tech Project Managers</h2>
                 </div>
 
                 <div class="caption-action">
@@ -51,7 +51,7 @@
                   <h1 style="vertical-align:middle; display:inline;">Ex Machina</h1>
                 </div>
                 <div>
-                  <h2>Augment your team with us</h2>
+                  <h2>Augment your Team With Us</h2>
                 </div>
                 <div></div>
                 <div class="caption-action">
@@ -80,7 +80,7 @@
                   <h1 style="vertical-align:middle; display:inline;">Ex Machina</h1>
                 </div>
                 <div>
-                  <h3>The future is remote</h3>
+                  <h3>The Future is Remote</h3>
                 </div>
                 <div></div>
                 <div class="caption-action">
@@ -176,10 +176,10 @@
             <i class="fa fa-gg"></i>
           </div>
           <div>
-            <h2 class="clean-section-title">What is our secret?</h2>
+            <h2 class="clean-section-title">What is Our Secret?</h2>
             <h3
               class="subtitle is-3"
-            >Pairing industry experts with local talent, to give you stellar development at a price you can afford.</h3>
+            >Pairing industry experts with local talent, to give you stellar development at a price you can afford</h3>
           </div>
         </div>
 
@@ -194,7 +194,7 @@
                     <h3 class="card-title is-clean">Deliver Faster</h3>
                     <p
                       class="card-description"
-                    >We help you scale up or scale down your team, ensuring faster delivery at lower cost.</p>
+                    >We help you scale up or scale down your team, ensuring faster delivery at lower cost</p>
                   </div>
                   <!-- Hover box 
                   <div class="flex-card icon-card-hover second-card light-bordered">
@@ -225,7 +225,7 @@
             </div>
           </div>
           <div class="section-title-wrapper has-text-centered">
-            <h2 class="clean-section-title">Half Price for 3 days</h2>
+            <h2 class="clean-section-title">Half Price for 3 Days</h2>
             <h3 class="subtitle is-3">First 3 days offered at half-price while you try us</h3>
           </div>
           <div
@@ -247,10 +247,10 @@
     <div class="section is-medium section-feature-grey">
       <div class="container">
         <div class="section-title-wrapper has-text-centered">
-          <h2 class="clean-section-title">Our Devs - Top 3% of Global Talent</h2>
+          <h2 class="clean-section-title">Our Developers - Top 3% of Global Talent</h2>
           <h3
             class="subtitle is-3"
-          >We recruit the top 3% of devs globally. Click a link to see their profiles.</h3>
+          >We recruit the top 3% of global developer talent. Click a link below to see their profiles</h3>
         </div>
 
         <div class="content-wrapper">
@@ -415,7 +415,9 @@
           </div>
 
           <h2 class="clean-section-title">Our Strengths</h2>
-          <h3 class="subtitle is-3">Strong Developers at an affordable rate</h3>
+          <h3 class="subtitle is-3">Strong developers at an affordable rate, managed by a team with 30 years combined experince in technology,
+            with backgrounds from Imperial, Oxford and Cambridge. 
+          </h3>
         </div>
 
         <div class="content-wrapper">
@@ -461,7 +463,7 @@
               <div class="side-feature-text">
                 <h2 class="feature-headline is-clean">Our Strengths</h2>
                 <p>You won't find better managed developers at our price-point. We source the best talent globally.</p>
-                <p>We combine global talent with strong communication through our management team,with tech experience at Barclays, Credit Suisse, Oxford etc.</p>
+                <p>We combine global talent with strong communication through our management team, having completed technology projects at Barclays, Credit Suisse, Oxford etc.</p>
                 <p>Our company has a strong focus on back-end development, data integrations and the languages: python, JAVA and JS.</p>
 
                 <div class="button-wrap">
@@ -487,7 +489,7 @@
           <div class="title-divider"></div>
           <div
             class="subheading"
-          >We are part of a global design Community. We are here to make you succeed.</div>
+          >Over 30 years of combined experience in the technology sector. Check out our linkedin profiles</div>
         </div>
 
         <div class="content-wrapper">
@@ -516,7 +518,7 @@
               <div class="member-info">
                 <h3 class="member-name">
                   Maximilian
-                  <strong>Erete</strong>
+                  <strong>Chamberlin</strong>
                 </h3>
                 <span class="member-position">Operational Lead, CEO</span>
               </div>
@@ -545,7 +547,7 @@
               <div class="member-info">
                 <h3 class="member-name">
                   Mary Eileen
-                  <strong>McDowell</strong>
+                  <strong>Brown</strong>
                 </h3>
                 <span class="member-position">Marketing Lead, CMO</span>
               </div>
@@ -599,7 +601,7 @@
           <div class="title-divider"></div>
           <div
             class="subheading"
-          >We do everything to satisfy our clients. Let's start a new story together.</div>
+          >We do everything to satisfy our clients. Let's start a new project together</div>
         </div>
         <div class="content-wrapper">
           <div class="columns is-vcentered has-text-centered mt-40">
@@ -626,7 +628,7 @@
                 <div class="counter-icon">
                   <i class="im im-icon-Laughing"></i>
                 </div>
-                <div class="counter counter-number text-bold">16</div>
+                <div class="counter counter-number text-bold">12</div>
                 <div class="counter-text">Satisfied clients</div>
               </div>
             </div>
@@ -673,12 +675,12 @@
                       <p class="timestamp">
                         <!-- <i class="sl sl-icon-clock"></i> nov 17 2017 -->
                       </p>
-                      <p class="title is-5">Machine Learnign is becoming the mots de jour</p>
+                      <p class="title is-5">Machine learnig is becoming the mots de jour, but who really gets it?</p>
                     </div>
                   </div>
 
                   <div class="post-exerpt">
-                    But did you know even smaller
+                    Did you know even smaller
                     enterprises can leverage the power of data analytics in their CRM or Marketing and analytics?
                   </div>
                   <div class="has-text-centered">
@@ -721,7 +723,7 @@
 
                   <div
                     class="post-exerpt"
-                  >Now, with Docker and Kubernetes, it's easier than ever to ensure your microservices talk to one another.</div>
+                  >With Docker, Google Cloud and Kubernetes, it's easier than ever to ensure your microservices stay connected.</div>
                   <div class="has-text-centered">
                     <!-- <a
                       class="button button-cta is-bold btn-align primary-btn btn-outlined rounded"
@@ -796,8 +798,8 @@
                 <h2
                   class="feature-headline is-clean"
                 >Ex Machina is focused on the following industries:</h2>
-                <p>We have a range of experience in the alt-finance, insurance and medical technology sectors.</p>
-                <p>We have been a part of digital transformation project in a wide range of industries. Check out our portfolio to learn more.</p>
+                <p>We have a range of experience in the alternative finance, insurance and medical technology sectors.</p>
+                <p>We have been a part of digital transformation projects in a wide range of industries. Check out our portfolio to learn more.</p>
                 <div class="button-wrap">
                   <router-link
                     to="/portfolio"
@@ -850,7 +852,7 @@
           <router-link
             to="/contact"
             class="button button-cta btn-align raised primary-btn"
-          >Contact Sales Now</router-link>
+          >Contact Us Now</router-link>
         </div>
       </div>
     </section>

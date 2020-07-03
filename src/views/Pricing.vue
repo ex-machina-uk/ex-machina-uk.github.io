@@ -9,12 +9,12 @@
         <div class="pricing-wrapper">
             <div class="pricing-tabs">
                 <a class="tab-item is-active" data-tab="solo">
-                    <img src="assets/img/icons/pricing/solo.svg" alt="">
-                    <span>Devs for Hire</span>
+                    <img src="assets/img/icons/time.svg" alt="">
+                    <span>Developers for Hire</span>
                 </a>
                 <a class="tab-item" data-tab="team">
-                    <img src="assets/img/icons/pricing/team.svg" alt="">
-                    <span>Fixed Price </span>
+                    <img src="assets/img/icons/invoice.svg" alt="">
+                    <span>Fixed Price Projects </span>
                 </a>
 
 
@@ -35,20 +35,20 @@
                                 <span>Junior</span>
                             </div>
                             <div class="price">
-                                <div class="amount">
-                                    250
+                                <div class="pounds">
+                                    £250
                                 </div>
                                 <p>/day</p>
                             </div>
                             <div class="plan-tagline">
-                                <p>Includes part time project manager - who you liase with to ensure smooth code execution. </p>
+                                <p>Includes part time project manager - who you liase with to ensure smooth delivery. </p>
                             </div>
                             <div class="button-wrap">
                                 <button class="button is-fullwidth  primary-btn is-rounded">Junior</button>
                             </div>
                             <div class="benefits content">
                                 <ul>
-                                    <li> Junior <span>university degree </span></li>
+                                    <li> Junior <span>bachelors degree </span></li>
                                     <li> >3 years <span>experience</span></li>
                                     <li> Fully  <span>vetted</span></li>
                                 </ul>
@@ -61,20 +61,20 @@
                                 <span>Senior</span>
                             </div>
                             <div class="price">
-                                <div class="amount">
-                                    350
+                                <div class="pounds">
+                                    £350
                                 </div>
                                 <p>/day</p>
                             </div>
                             <div class="plan-tagline">
-                                <p>Includes part time project manager - who you liase with to ensure smooth code execution.</p>
+                                <p>Includes part time project manager - who you liase with to ensure smooth delivery.</p>
                             </div>
                             <div class="button-wrap">
                                 <button class="button is-fullwidth primary-btn is-rounded">Senior</button>
                             </div>
                             <div class="benefits content">
                                 <ul>
-                                    <li> Senior <span>Master's degree </span></li>
+                                    <li> Senior <span>masters degree </span></li>
                                     <li> >5 years <span>experience</span></li>
                                     <li> Fully  <span>vetted</span></li>
                                 </ul>
@@ -87,13 +87,13 @@
                                 <span>Team</span>
                             </div>
                             <div class="price">
-                                <div class="amount">
-                                    700
+                                <div class="pounds">
+                                    £700
                                 </div>
                                 <p>/day</p>
                             </div>
                             <div class="plan-tagline">
-                                <p>Two junior developers, a senior developer and a project manager. Quickest way to get your tech sorted.</p>
+                                <p>Two juniors, one senior dev and a project manager. Fastest way to get your project up and running.</p>
                             </div>
                             <div class="button-wrap">
                                 <button class="button is-fullwidth is-rounded primary-btn">Team</button>
@@ -101,8 +101,8 @@
                             <div class="benefits content">
                                 <ul>
                                     <li> Agile <span>team management </span></li>
-                                    <li> Jira <span>ticketing to manage progress</span></li>
-                                    <li> Rotation  <span> to ensure fresh Devs</span></li>
+                                    <li> Jira <span>ticketing</span></li>
+                                    <li> Rotation  <span> to ensure engagement</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -131,9 +131,9 @@
                             </div>
                             <div class="benefits content">
                                 <ul>
-                                    <li>Front End  <span> -  React or VueJS UI styling</span></li>
-                                    <li>Back End <span> - Database, Containerisation, Authentication </span></li>
-                                    <li>Testing<span> - Full unit and integration testing suite </span></li>
+                                    <li>Front-end  <span> -  React or Vue UI, with styling</span></li>
+                                    <li>Back-end <span> - database, containerisation, authentication </span></li>
+                                    <li>Testing<span> - full unit and integration testing suite </span></li>
                                 </ul>
                             </div>
                         </div>
@@ -141,23 +141,23 @@
                         <div class="solo-plan">
                             <div class="header">
                                 <img src="assets/img/icons/pricing/freelancer.svg" alt="">
-                                <span>React/VUE Webapp</span>
+                                <span>React/VUE Web-app</span>
                             </div>
                             <div class="price">
 
                                 <b>POA</b>
                             </div>
                             <div class="plan-tagline">
-                                <p>WebAPP - VUE or React Front-end, Python or JAVA backend</p>
+                                <p>Web-app - Vue or React, Python or JAVA back-end</p>
                             </div>
                             <div class="button-wrap">
-                                <button class="button is-fullwidth primary-btn is-rounded">WebApp</button>
+                                <button class="button is-fullwidth primary-btn is-rounded">Web-app</button>
                             </div>
                             <div class="benefits content">
                                 <ul>
-                                    <li>PWA <span>React Native or VUE JS</span></li>
-                                    <li> Integrations <span>Splash Notifications, Home Screen Button</span></li>
-                                    <li> Mobile APIs <span>Camera Geo-location etc.</span></li>
+                                    <li>PWA <span>- React Native or Vue JS</span></li>
+                                    <li> Integrations <span>- splash screen, push-notifications, authentication, home-screen button etc.</span></li>
+                                    <li> Mobile APIs <span>- camera, geo-location etc.</span></li>
 
                                 </ul>
                             </div>
@@ -166,23 +166,23 @@
                         <div class="solo-plan">
                             <div class="header">
                                 <img src="assets/img/icons/pricing/freelancerplus.svg" alt="">
-                                <span> Data integrations and Machine Learning</span>
+                                <span> Data Integrations and Machine Learning</span>
                             </div>
                             <div class="price">
     
                                 <b>POA</b>
                             </div>
                             <div class="plan-tagline">
-                                <p>Connections between Rest APIs, RPC, Dockerised communications </p>
+                                <p>REST APIs, RPC, Docker networking </p>
                             </div>
                             <div class="button-wrap">
                                 <button class="button is-fullwidth primary-btn is-rounded ">Data Integrations</button>
                             </div>
                             <div class="benefits content">
                                 <ul>
-                                    <li>REST or RPC<span> APIs - we manage them.</span></li>
-                                    <li>Websockets/ Webhooks <span>integrations - we connect them.</span></li>
-                                    <li>Containerisation<span> Deployments of multiple microservices</span></li>
+                                    <li>REST or RPC<span> APIs - we manage them</span></li>
+                                    <li>Websockets/ Webhooks <span>integrations - we connect them</span></li>
+                                    <li>Containerisation/ Microservices<span> - we deploy them</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -433,6 +433,14 @@ export default {
 </script>
 
 <style>
+.pounds {
+    width: 100%;
+    text-align: center;
+    padding: 16px 0;
+    font-weight: bold;
+    font-size: 40px;
+}
+
 .nav-back {
     height: 70px;
     background: rgba(0,0,0,0.6)
