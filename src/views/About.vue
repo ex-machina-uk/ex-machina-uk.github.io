@@ -18,7 +18,7 @@
               <h1 class="title main-title subpage-title text-bold is-2">ABOUT US</h1>
               <h2
                 class="subtitle is-4 light-text pt-20"
-              >We are a Technology Solutions agency thrusted by innovation, commitment and the mission to satisfy our clients' needs.</h2>
+              >We are a technology solutions agency thrusted by innovation, commitment and the mission to satisfy our clients' needs</h2>
               <br />
             </div>
           </div>
@@ -37,10 +37,11 @@
           </div>
           <div>
             <h2 class="clean-section-title">We are Trusted</h2>
-            <h2 class="subtitle is-3">What drives us</h2>
+            <h2 class="subtitle is-3">What Drives Us</h2>
              <h2
                 class="subtitle is-4"
-              >We strive for the best in-class technology product development. We are here for you every step of the way, our executive team has over 30 years combined
+              >We strive for the best in-class technology product development. We are here for you every step of the way, and 
+              our executive team has over 30 years combined
               experience in providing technology solutions for large enterprises. Here is what some of our clients have to sday about us: </h2>
           </div>
         </div>
@@ -106,12 +107,12 @@
             <i class="fa fa-gg"></i>
           </div>
           <div>
-            <h2 class="clean-section-title">Technologies we work with</h2>
+            <h2 class="clean-section-title">Technologies we Work With</h2>
             <h2 class="subtitle is-3">Here are some of the technologies we work with</h2>
              <h2
                 class="subtitle is-4"
-              >Our team is adept and capable in a broad variety of frameworks, covering the JAVA, Python and Javascript languages. We are up to date
-              in the latest deployment strategies - Docker and serverless as well as understanding the fundamentals of good design and UX.</h2>
+              >Our team is adept in a wide variety of frameworks, covering the JAVA, Python and Javascript languages. We are up to date
+              in the latest deployment strategies - Docker and serverless. And we understanding the fundamentals of good design and UX.</h2>
           </div>
         </div>
 
@@ -209,7 +210,7 @@
             <h2 class="subtitle is-3"> Agile Iteration and Validation</h2>
              <h2
                 class="subtitle is-4"
-              >At Ex-Machina, we take care to lay the foundations by exploring your problem and discussing the architectures and design patterns that 
+              >At Ex Machina, we take care to lay the foundations by exploring your problem and discussing the architectures and design patterns that 
                     would suit your application. Code creation is an iterative process, and we ensure that we collect, measure and validate our trajectory on your project.  </h2>
           </div>
         </div>
@@ -233,8 +234,8 @@
                     <div class="motto">Think</div>
                     <p
                       class="description"
-                    >Before we touch a line a code, we think deeply about the problem domain and investigate the apis and architectures that could help
-                    you solve your problems faster. </p>
+                    >Before we touch a line a code, we think deeply about the problem domain and investigate the APIs and architectures that could help
+                    you solve your problems. </p>
                   </div>
                 </div>
               </div>
@@ -254,8 +255,8 @@
                     <div class="motto">Iterate</div>
                     <p
                       class="description"
-                    >Once we have done that, we start the iteration process, exploring the technolgoies, building design and validating our assumptions as well
-                    as collecting client feedback. </p>
+                    >We then start the iteration process, exploring the technologies, building the product whilst continuously validating our assumptions
+                    through client feedback. </p>
                   </div>
                 </div>
               </div>
@@ -275,7 +276,7 @@
                     <div class="motto">Create</div>
                     <p
                       class="description"
-                    >Creation is an on-going process that goes in tandem with iteration. We build you  products to your exact specifications.</p>
+                    >Creation is an on-going process that goes in tandem with iteration. We build you products to your exact specifications.</p>
                   </div>
                 </div>
               </div>
@@ -286,9 +287,9 @@
     </div>
     
           <div class="pt-60 pb-60 has-text-centered">
-            <a
-              class="button button-cta is-bold btn-align primary-btn btn-outlined rounded is-title-reveal"
-            >Start a project</a>
+            <router-link to='/contact'
+              class="button button-cta is-bold btn-align primary-btn btn-outlined rounded is-title-reveal" 
+            >Contact</router-link>
           </div>
         </div>
 </template>

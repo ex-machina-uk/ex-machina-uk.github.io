@@ -67,7 +67,7 @@
                     Phone
                 </div>
                 <div class="description shadow-description">
-                    <b>+44 7718182079</b>
+                    <b>0207 258 0003</b>
                     <br>
                 </div>
             </div>

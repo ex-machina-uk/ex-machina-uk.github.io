@@ -283,10 +283,10 @@
                   <div class="circle-overlay"></div>
                   <div class="project-info has-text-centered">
                     <div class="wrapper">
-                      <div class="project-title">David </div>
+                      <div class="project-title"  @click="$router.push({name: 'blog_five'})">David </div>
                       <div class="project-link">
                         <a>
-                          <i class="material-icons">keyboard_arrow_right</i>
+                          Profile <i class="material-icons">keyboard_arrow_right</i>
                         </a>
                       </div>
                     </div>
@@ -307,8 +307,8 @@
                     <div class="wrapper">
                       <div class="project-title">James Dyson</div>
                       <div class="project-link">
-                        <a>
-                          <i class="material-icons">keyboard_arrow_right</i>
+                        <a @click="$router.push({name: 'blog_three'})">
+                          Profile <i class="material-icons">keyboard_arrow_right</i>
                         </a>
                       </div>
                     </div>
@@ -325,9 +325,9 @@
                   <div class="circle-overlay"></div>
                   <div class="project-info has-text-centered">
                     <div class="wrapper">
-                      <div class="project-title">Sohaib Mohammed Ahmad</div>
+                      <div class="project-title" >Sohaib Mohammed Ahmad</div>
                       <div class="project-link">
-                        <a >
+                        Profile  <a @click="$router.push({name: 'blog_six'})">
                           <i class="material-icons">keyboard_arrow_right</i>
                         </a>
                       </div>
@@ -347,8 +347,8 @@
                     <div class="wrapper">
                       <div class="project-title">Kunal Aggarwal</div>
                       <div class="project-link">
-                        <a>
-                          <i class="material-icons">keyboard_arrow_right</i>
+                        <a @click.stop="$router.push({namea: 'blog_seven'})">
+                          Profile <i class="material-icons">keyboard_arrow_right</i>
                         </a>
                       </div>
                     </div>
@@ -369,7 +369,7 @@
                     <div class="wrapper">
                       <div class="project-title">Sunhil Khabra</div>
                       <div class="project-link">
-                        <a >
+                        Profile <a @click="$router.push({name: 'blog_eight'})">
                           <i class="material-icons">keyboard_arrow_right</i>
                         </a>
                       </div>
@@ -528,7 +528,7 @@
               <div class="item-wrapper">
                 <div class="item-img"  v-lazy-container="{ selector: 'img' }">
                   <img
-                    data-src="assets/img/unsplash/directors/me.jpeg"
+                    data-src="assets/img/unsplash/directors/me.png"
                     class="member-avatar"
                     alt
                     data-demo-src="assets/img/agency/team/two.jpg"

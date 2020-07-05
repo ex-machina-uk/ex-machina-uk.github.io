@@ -45,9 +45,9 @@
                             Blog
                         </router-link>
                         -->
-                        <a class="navbar-item is-slide" @click='$refs.toggler.click(); $router.push("/pricing")'>
+                        <a class="navbar-item is-slide" @click='$refs.toggler.click(); $router.push("/sectors")'>
 
-                            Pricing
+                            Sectors
                         </a>
 
                     </div>

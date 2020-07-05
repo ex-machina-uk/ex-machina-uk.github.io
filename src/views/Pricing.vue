@@ -121,7 +121,7 @@
                             </div>
                             <div class="price">
 
-                                <b>POA</b>
+                                <div class="pounds">POA</div>
                             </div>
                             <div class="plan-tagline">
                                 <p>Full Backend Website </p>
@@ -145,7 +145,7 @@
                             </div>
                             <div class="price">
 
-                                <b>POA</b>
+                                <div class="pounds">POA</div>
                             </div>
                             <div class="plan-tagline">
                                 <p>Web-app - Vue or React, Python or JAVA back-end</p>
@@ -170,7 +170,7 @@
                             </div>
                             <div class="price">
     
-                                <b>POA</b>
+                                <div class="pounds">POA</div>
                             </div>
                             <div class="plan-tagline">
                                 <p>REST APIs, RPC, Docker networking </p>
