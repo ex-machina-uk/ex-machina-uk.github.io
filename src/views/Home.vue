@@ -116,60 +116,60 @@
     >
       <div class="container is-reverse-skewed-sm">
         <div class="section-title-wrapper has-text-centered">
-          <!-- Clients references -->
-          <div class="hero-foot is-pulled">
-            <div class="container">
-              <div class="tabs partner-tabs is-centered">
-                <ul>
-                  <li>
-                    <a v-lazy-container="{ selector: 'img' }">
-                      <img data-src="assets/img/unsplash/work/mb.webp" alt class="partner-logo" />
-                    </a>
-                  </li>
-                  <li>
-                    <a v-lazy-container="{ selector: 'img' }">
-                      <img data-src="assets/img/unsplash/work/cambridge.png" alt class="partner-logo" />
-                    </a>
-                  </li>
-                  <li>
-                    <a v-lazy-container="{ selector: 'img' }">>
-                      <img data-src="assets/img/unsplash/work/az-logo.png.png" alt class="partner-logo" />
-                    </a>
-                  </li>
-                  <li>
-                    <a v-lazy-container="{ selector: 'img' }">
-                      <img
-                        data-src="assets/img/unsplash/work/MedImmune_logo.gif"
-                        alt
-                        class="partner-logo"
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a v-lazy-container="{ selector: 'img' }">
-                      <img
-                        data-src="assets/img/unsplash/work/cs.png"
-                        height="200px"
-                        alt
-                        class="partner-logo"
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a v-lazy-container="{ selector: 'img' }">
+          
+          
+<!-- Clients logos carousel -->
+<div class="section is-medium">
+    <div class="container">
 
-                      <img
-                        data-src="assets/img/unsplash/work/oxford.png"
-                        height="200px"
-                        alt
-                        class="partner-logo"
-                      />
-                    </a>
-                  </li>
-                </ul>
-              </div>
+        <div class="columns is-vcentered">
+            <div class="column">
+                <!-- Carousel -->
+                <div class="clients-logo-carousel" >
+                    <!-- Carousel item -->
+                    <div class="carousel-item">
+                        <div class="image-wrapper" >
+                      <img src="assets/img/unsplash/work/mb.webp" alt class="client-logo" />
+                        </div>
+                    </div>
+                    <!-- Carousel item -->
+                    <div class="carousel-item" >
+                        <div class="image-wrapper">
+                            <img src="assets/img/unsplash/work/az-logo.png.png" alt class="client-logo" >
+                        </div>
+                    </div>
+                    <!-- Carousel item -->
+                    <div class="carousel-item">
+                        <div class="image-wrapper">
+                      <img src="assets/img/unsplash/work/cambridge.png" alt class="client-logo"  />
+                        </div>
+                    </div>
+                    <!-- Carousel item -->
+                    <div class="carousel-item">
+                        <div class="image-wrapper">
+                            <img class="client-logo" src="assets/img/unsplash/work/MedImmune_logo.gif" alt="" >
+                        </div>
+                    </div>
+                    <!-- Carousel item -->
+                    <div class="carousel-item">
+                        <div class="image-wrapper">
+                            <img class="client-logo" src="assets/img/unsplash/work/cs.png" alt="" >
+                        </div>
+                    </div>
+                    <!-- Carousel item -->
+                    <div class="carousel-item">
+                        <div class="image-wrapper">
+                            <img class="client-logo" src="assets/img/unsplash/work/oxford.png" alt="" >
+                        </div>
+                    </div>
+                  
+                </div>
             </div>
-          </div>
+        </div>
+    </div>
+</div>
+          
+          
           <br />
 
           <div class="clean-bg-symbol">
@@ -499,7 +499,7 @@
               <div class="item-wrapper">
                 <div class="item-img"  v-lazy-container="{ selector: 'img' }">
                   <img
-                    data-src="assets/img/unsplash/directors/me2.png"
+                    data-src="assets/img/unsplash/directors/maxi.jpg"
                     class="member-avatar"
                     alt
                     data-demo-src="assets/img/agency/team/one.jpg"
@@ -528,7 +528,7 @@
               <div class="item-wrapper">
                 <div class="item-img"  v-lazy-container="{ selector: 'img' }">
                   <img
-                    data-src="assets/img/unsplash/directors/me.png"
+                    data-src="assets/img/unsplash/directors/me.jpeg"
                     class="member-avatar"
                     alt
                     data-demo-src="assets/img/agency/team/two.jpg"
@@ -983,4 +983,7 @@ export default {
 .tabs::-webkit-scrollbar {
   display: none;
 }
+
+.image-wrapper  {
+margin: 40px}
 </style>
