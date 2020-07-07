@@ -11,10 +11,10 @@
         <div class="container has-text-centered">
             <h1 class="title flex-title main-title text-bold is-2">
                 <!-- Previous post arrow -->
-                <span class="material-icons is-hidden-mobile" data-toggle="tooltip" data-placement="right" data-title="Previous post">keyboard_arrow_left</span>
+                <span class="material-icons is-hidden-mobile" data-toggle="tooltip"  style="opacity: 0;" data-placement="right" data-title="Previous post">keyboard_arrow_left</span>
                 <span class="subpage-title">{{header}}</span>
                 <!-- Next post arrow -->
-                <span class="material-icons is-hidden-mobile" data-toggle="tooltip" data-placement="left" data-title="Next post">keyboard_arrow_right</span>
+                <span class="material-icons is-hidden-mobile" style="opacity: 0;" data-toggle="tooltip" data-placement="left" data-title="Next post">keyboard_arrow_right</span>
             </h1>
         </div>
     </div>

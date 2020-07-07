@@ -10,10 +10,10 @@
     <template v-slot:body>
       <div class="left-post-content">
         <br>
-        <p> <b> Me - </b>Hi, I'm Isaac and  my mission is to do the best front end development work I can for our clients.
-          I have been working with Ex-Machina for 3 years and honestly, it's been the best work opportunity I could have possibly had. 
+        <p> <b> Me - </b>Hi, I'm Isaac. My mission is to do the best front end development work I can.
+          I have been working with Ex-Machina for 3 years and it's been the best work opportunity I could have  had. 
           I get to work on a wide variety of projects, from React Native to Flutter and Vue, so I definitely feel like
-          I am constantly evolving and using the latest technologies. 
+          I am constantly evolving and employing the latest technologies. 
         </p>
         <br>
           <p> <b> Work - </b>  The work we do is highly rigorous - we employ continuous integration for all our projects, which means that before we check in 

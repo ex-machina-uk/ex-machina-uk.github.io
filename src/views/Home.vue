@@ -25,10 +25,10 @@
                 </div>
 
                 <div class="caption-action">
-                  <a
-                    href="#services"
+                  <router-link
+                    to="/sectors"
                     class="button button-cta btn-align light-btn btn-outlined is-bold rounded"
-                  >Get Started</a>
+                  >Get Started</router-link>
                 </div>
               </div>
             </div>
@@ -55,10 +55,10 @@
                 </div>
                 <div></div>
                 <div class="caption-action">
-                  <a
-                    href="#services"
+                  <router-link
+                    to="/sectors"
                     class="button button-cta btn-align light-btn btn-outlined is-bold rounded"
-                  >Get Started</a>
+                  >Get Started</router-link>
                 </div>
               </div>
             </div>
@@ -84,10 +84,10 @@
                 </div>
                 <div></div>
                 <div class="caption-action">
-                  <a
-                    href="#services"
+                  <router-link
+                    to="/sectors"
                     class="button button-cta btn-align light-btn btn-outlined is-bold rounded"
-                  >Get Started</a>
+                  >Get Started</router-link>
                 </div>
               </div>
             </div>
@@ -122,7 +122,7 @@
 <div class="section is-medium">
     <div class="container">
 
-        <div class="columns is-vcentered">
+        <div class="columns is-vcentered" style="margin-top:-80px;">
             <div class="column">
                 <!-- Carousel -->
                 <div class="clients-logo-carousel" >
@@ -224,6 +224,7 @@
               </div>
             </div>
           </div>
+          <!--
           <div class="section-title-wrapper has-text-centered">
             <h2 class="clean-section-title">Half Price for 3 Days</h2>
             <h3 class="subtitle is-3">First 3 days offered at half-price while you try us</h3>
@@ -239,8 +240,11 @@
               style="font-weight: strong;"
             >Contact us</router-link>
           </div>
+                        -->
+
         </div>
       </div>
+
     </section>
 
     <!-- Portfolio -->
@@ -285,9 +289,11 @@
                     <div class="wrapper">
                       <div class="project-title"  @click="$router.push({name: 'blog_five'})">David </div>
                       <div class="project-link">
+                        <!--
                         <a>
                           Profile <i class="material-icons">keyboard_arrow_right</i>
                         </a>
+                        -->
                       </div>
                     </div>
                   </div>
@@ -327,9 +333,12 @@
                     <div class="wrapper">
                       <div class="project-title" >Sohaib Mohammed Ahmad</div>
                       <div class="project-link">
+                                              <!--
+
                         Profile  <a @click="$router.push({name: 'blog_six'})">
                           <i class="material-icons">keyboard_arrow_right</i>
                         </a>
+                        -->
                       </div>
                     </div>
                   </div>
@@ -347,9 +356,11 @@
                     <div class="wrapper">
                       <div class="project-title">Kunal Aggarwal</div>
                       <div class="project-link">
+                        <!--
                         <a @click.stop="$router.push({namea: 'blog_seven'})">
                           Profile <i class="material-icons">keyboard_arrow_right</i>
                         </a>
+                        -->
                       </div>
                     </div>
                   </div>
@@ -369,9 +380,11 @@
                     <div class="wrapper">
                       <div class="project-title">Sunhil Khabra</div>
                       <div class="project-link">
+                        <!--
                         Profile <a @click="$router.push({name: 'blog_eight'})">
                           <i class="material-icons">keyboard_arrow_right</i>
                         </a>
+                        -->
                       </div>
                     </div>
                   </div>
@@ -389,6 +402,7 @@
                     <div class="wrapper">
                       <div class="project-title">Damilaare Isaac</div>
                       <div class="project-link">
+                        
                         <a @click="$router.push({name: 'blog_one'})">
                           View profile
                           <i class="material-icons">keyboard_arrow_right</i>
@@ -499,7 +513,7 @@
               <div class="item-wrapper">
                 <div class="item-img"  v-lazy-container="{ selector: 'img' }">
                   <img
-                    data-src="assets/img/unsplash/directors/maxi.jpg"
+                    data-src="assets/img/unsplash/directors/me2.png"
                     class="member-avatar"
                     alt
                     data-demo-src="assets/img/agency/team/one.jpg"
@@ -984,6 +998,7 @@ export default {
   display: none;
 }
 
-.image-wrapper  {
-margin: 40px}
+.carousel-item  {
+  padding: 5%
+  }
 </style>

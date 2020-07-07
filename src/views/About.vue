@@ -66,7 +66,7 @@
                         data-demo-src="assets/img/avatars/dan.png"
                       />
                       <div class="info">
-                        <div class="name clean-text">Gary Chamberlin</div>
+                        <div class="name clean-text">Gary</div>
                         <div class="position">CTO director, Aries Pensions Systems</div>
                       </div>
                     </div>
