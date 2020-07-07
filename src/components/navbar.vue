@@ -56,7 +56,8 @@
                     <div class="navbar-end">
                         <!-- Signup button -->
                         <div class="navbar-item">
-                            <a id="#signup-btn"   @click='$refs.toggler.click(); $router.push("/contact")' class="button button-signup btn-outlined is-bold btn-align rounded raised light-btn">
+                            <a id="#signup-btn"   @click='$refs.toggler.click(); $router.push("/contact")' 
+                            class="button button-signup btn-outlined is-bold btn-align rounded raised light-btn">
                                 Contact
                             </a>
                         </div>
@@ -67,8 +68,13 @@
         </template>
         <style>
         #nav .is-transparent a {
-            color: white;
+            color: white; 
             /* color: #2c3e50; */
+        }
+
+        #nav .is-transparent a:hover {
+            color: white; 
+            color: #2c3e50;
         }
         </style>
         <script>

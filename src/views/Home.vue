@@ -2,7 +2,7 @@
   <div class>
     <!-- Hero and nav -->
     <div class="hero is-cover is-relative is-default is-bold" style="z-index:0 !important;">
-      <div class="Wallop Wallop--scale">
+      <div class="Wallop Wallop--slide ">
         <div class="Wallop-list">
           <!-- Slide -->
           <div
@@ -23,6 +23,7 @@
                 <div>
                   <h2>We are Tech Project Managers</h2>
                 </div>
+                                  <div></div>
 
                 <div class="caption-action">
                   <router-link
@@ -38,7 +39,6 @@
             class="Wallop-item has-background-image Wallop-item--hidePrevious"
             style="background-image: url(&quot;assets/img/unsplash/devs/dev-9.jpg&quot;);"
           >
-            >
             <div class="Wallop-overlay"></div>
             <div class="Wallop-caption-wrapper">
               <div class="Wallop-caption is-centered">
@@ -861,7 +861,9 @@
         <div
           class="has-text-centered is-title-reveal landing-cta"
           data-sr-id="3"
-          style="; visibility: visible;  -webkit-transform: translateY(0) scale(1); opacity: 1;transform: translateY(0) scale(1); opacity: 1;-webkit-transition: -webkit-transform 0.6s cubic-bezier(0.215, 0.61, 0.355, 1) 0.1s, opacity 0.6s cubic-bezier(0.215, 0.61, 0.355, 1) 0.1s; transition: transform 0.6s cubic-bezier(0.215, 0.61, 0.355, 1) 0.1s, opacity 0.6s cubic-bezier(0.215, 0.61, 0.355, 1) 0.1s; "
+          style="; visibility: visible;  -webkit-transform: translateY(0) scale(1); opacity: 1;transform: translateY(0) scale(1); 
+          opacity: 1;-webkit-transition: -webkit-transform 0.6s cubic-bezier(0.215, 0.61, 0.355, 1) 0.1s, opacity 0.6s cubic-bezier(0.215, 0.61, 0.355, 1) 0.1s; 
+          transition: transform 0.6s cubic-bezier(0.215, 0.61, 0.355, 1) 0.1s, opacity 0.6s cubic-bezier(0.215, 0.61, 0.355, 1) 0.1s; "
         >
           <router-link
             to="/contact"
@@ -992,6 +994,10 @@ export default {
 
 <style>
 .Wallop {
+}
+
+.caption-action {
+
 }
 
 .tabs::-webkit-scrollbar {
